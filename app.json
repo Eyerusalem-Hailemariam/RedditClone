@@ -2,6 +2,7 @@
   "expo": {
     "name": "RedditClone",
     "slug": "RedditClone",
+    "scheme": "Reddit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +13,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
+    "ios": {  
       "supportsTablet": true
     },
     "android": {
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
